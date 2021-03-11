@@ -1,3 +1,10 @@
 canvas {
-  border: black 5px double;
+  border: black 10px double;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  line-height: 1.7;
+  text-align: center;
 }
