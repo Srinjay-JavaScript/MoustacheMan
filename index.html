@@ -49,16 +49,16 @@
         <div class="modal-body">
           <h3 style="font-family: Raleway, sans-serif;">Tint: </h3>
           <p><i><mark>By using tint you can change you background's color to green, red and blue. The first slider controls the <b style="color: rgb(184, 22, 22);">Red</b> color. The second controls the <b style='color:rgb(9, 168, 9)'>Green</b> color, and finally, the last one controls the <b style="color: rgb(42, 42, 131);">Blue</b> color.</mark></i></p>
-          <input type="range" min="1" max="255" value="100">
+          <input id="redS" type="range" min="1" max="255" value="100">
           <br>
-          <input type="range" min="1" max="255" value="100">
+          <input id="greenS" type="range" min="1" max="255" value="100">
           <br>
-          <input type="range" min="1" max="255" value="100">
+          <input id="blueS" type="range" min="1" max="255" value="100">
           
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" onclick="apply()">Apply</button>
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" onclick="apply()">Apply</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
         </div>
       </div>
       
